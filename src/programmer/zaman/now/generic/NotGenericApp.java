@@ -6,7 +6,7 @@ public class NotGenericApp {
 
 	public static void main(String[] args) {
 		
-		Data data = new Data();
+		Data data = new Data("");
 		data.setData("Andres");
 		String value = (String) data.getData();
 		
